@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top_contact_bar {
+  background-color: #212121;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socialMedia_buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 11%;
+  margin-left: 5vh;
+}
+
+.facebook {
+  height: 4vh;
+  width: 4vh;
+  background-color: #303030;
+}
+
+.facebook i {
+  color: #bcbec0;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 33%;
+}
+
+.header_button {
+  background-color: #a2d84c;
+  height: 5vh;
+  width: 20vh;
+  display: flex;
+  align-items: center;
+  font-size: small;
+  font-weight: 500;
+  box-shadow: 0px 1px 2px 1px #77a32b;
+  border-radius: 3px;
+  justify-content: center;
+  border: none;
+}
+
+.slider-container div {
+  height: 100vh;
+  width: 100%;
+}
+
+.slide1 {
+  background-image: url("/Assets/Capture.JPG");
+  background-size: cover;
+  object-fit: cover;
+  /* overflow: hidden; */
+  background-position: center;
+}
+
+.heading {
+  margin: 5vh 0vh;
+}
+
+.circle {
+  height: 20vh;
+  width: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f2f2;
+}
+
+.aboutUs_button {
+  background-color: #a2d84c;
+  height: 6vh;
+  width: 28vh;
+  display: flex;
+  align-items: center;
+  font-size: medium;
+  font-weight: 500;
+  box-shadow: 0px 1px 2px 1px #77a32b;
+  border-radius: 3px;
+  justify-content: center;
+  border: none;
+  margin-top: 5vh;
+}
+
+.aboutUs_img_div img {
+  height: 60vh;
+  width: 80vh;
+}
+
+.start_circle {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -13%;
+  left: 37%;
+  color: #ef4136;
+  background: #ffbd1a;
+}
+
+.services {
+  border-radius: 5px;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f1f2f2;
+}
+
+
+.portfolio_nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.process_div{
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.process_number{
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 41%;
+    top: -7%;
+    background-color: #ffbd1a;
+}
+
+.process {
+  border: 3px solid #d1d3d4;
+    border-radius: 100%;
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_review_div{
+  justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    height: 10rem;
+    padding-right: 2rem;
+}
+
+.user_img{
+  width: 9rem;
+    height: 6rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+p{
+  font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.mask,
+.fill {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 50%;
+  clip: rect(0px, 75px, 150px, 0px);
+}
+
+.mask.full,
+.mask.half {
+  clip: rect(0px, 150px, 150px, 75px); 
+}
+
+.fill {
+  background-color: orange;
+  transform: rotate(45deg); 
+  clip: rect(0px, 150px, 150px, 75px); 
+}
+
+.mask.full .fill {
+  transform: rotate(180deg); 
+}
+
+.inside-circle {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inside-circle span {
+  font-size: 24px;
+  color: orange;
+} */
+
